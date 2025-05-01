@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8EEEC"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="381dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/top_background2" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:text="Welcome\nBack"
+                android:textColor="#fe2f99"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/PersonMailTextText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/faviconcat"
+                android:drawablePadding="16dp"
+                android:padding="8dp"
+                android:background="@drawable/edittext_background"
+                android:inputType="textPersonName"
+                android:hint="Email"
+                android:textColorHint="#756C6C" />
+
+            <EditText
+                android:id="@+id/PersonPasswordTextText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/faviconpaw"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColorHint="#756C6C" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                app:srcCompat="@drawable/faviconarrow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="32dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="78dp"
+                    android:layout_height="55dp"
+                    android:padding="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:drawableStart="@drawable/faviconface"
+                    android:text="FaceBook"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/Googlebutton"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:padding="8dp"
+                    android:drawableStart="@drawable/google_logo"
+                    android:background="@drawable/btn_background"
+                    android:layout_weight="1"
+                    android:text="Google"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you new user? Register"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

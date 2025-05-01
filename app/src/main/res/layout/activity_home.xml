@@ -1,0 +1,98 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8EEEC"
+    tools:context=".MainActivity">
+
+    <!-- Banner (sem arredondamento) -->
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:padding="8dp"
+        app:srcCompat="@drawable/banner"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Perdido -->
+    <ImageView
+        android:id="@+id/perdido"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_corners"
+        android:clipToOutline="true"
+        android:padding="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/localizacao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner"
+        app:srcCompat="@drawable/perdido" />
+
+    <!-- Localização -->
+    <ImageView
+        android:id="@+id/localizacao"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_corners"
+        android:clipToOutline="true"
+        android:padding="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perdido"
+        app:layout_constraintTop_toBottomOf="@+id/banner"
+        app:srcCompat="@drawable/localizacao" />
+
+    <!-- Adoção (trocado de posição) -->
+    <ImageView
+        android:id="@+id/adocao"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_corners"
+        android:clipToOutline="true"
+        android:padding="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/maisdetalhes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perdido"
+        app:srcCompat="@drawable/adocao"
+        android:onClick="adoption"/>
+
+    <!-- Mais Detalhes (trocado de posição) -->
+    <ImageView
+        android:id="@+id/maisdetalhes"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_corners"
+        android:clipToOutline="true"
+        android:padding="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/adocao"
+        app:layout_constraintTop_toBottomOf="@+id/localizacao"
+        app:srcCompat="@drawable/maisdetalhes"
+        android:onClick="moredetails"/>
+
+    <!-- QR Code Scanner -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="74dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="scanQRCode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/qr" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

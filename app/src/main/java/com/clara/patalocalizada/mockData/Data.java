@@ -1,0 +1,228 @@
+package com.clara.patalocalizada.mockData;
+
+import com.clara.patalocalizada.models.Animal;
+import com.clara.patalocalizada.models.User;
+
+
+import java.util.ArrayList;
+import java.util.UUID;
+
+
+public class Data {
+
+    public Data() {
+
+    }
+
+    public static ArrayList<User> getUsers() {
+        ArrayList<User> users = new ArrayList<User>();
+        User user1 = new User(UUID.randomUUID().toString(), "Joana Lousa", "Joana1@gmail.com", "senha123", 927875101);
+        User user2 = new User(UUID.randomUUID().toString(), "Gabriel Souza", "GabrieldeSouza03@gmail.com", "senha456", 930976234);
+        User user3 = new User(UUID.randomUUID().toString(), "Célia Carvalho", "CeliaCarvalho@gmail.com", "senha891", 927893192);
+        User user4 = new User(UUID.randomUUID().toString(), "Guilherme Costa", "Guilherme345@gmail.com", "senha101", 930542156);
+        User user5 = new User(UUID.randomUUID().toString(), "Marta Amorin", "MartaAmorin@gmail.com", "senha453", 930964257);
+        User user6 = new User(UUID.randomUUID().toString(), "Jessica Fernandes", "jessiccca@gmail.com", "senha8", 927893974);
+        User user7 = new User(UUID.randomUUID().toString(), "Luís Gomes", "Luuiz@gmail.com", "senha41", 931567215);
+        User user8 = new User(UUID.randomUUID().toString(), "Hugo Pereira", "Hugo98@gmail.com", "senha324", 930189562);
+        User user9 = new User(UUID.randomUUID().toString(), "Luana Matos", "LuanaMendes@gmail.com", "senha78", 927506213);
+        User user10 = new User(UUID.randomUUID().toString(), "João Silva", "Joao123@gmail.com", "senha18", 927893874);
+        User user11 = new User(UUID.randomUUID().toString(), "Rui Túlio", "Rui123@gmail.com", "senha98", 927882123);
+        User user12 = new User(UUID.randomUUID().toString(), "Sofia Melo", "Sofia123@gmail.com", "senha3", 928523123);
+        User user13 = new User(UUID.randomUUID().toString(), "Maria Cruz", "Maria123@gmail.com", "senha103", 930893198);
+        User user14 = new User(UUID.randomUUID().toString(), "Ana Oliveira", "Ana123@gmail.com", "senha114", 930986543);
+        User user15 = new User(UUID.randomUUID().toString(), "Pedro Cruz", "Pedro123@gmail.com", "senha75", 927893123);
+        User user16 = new User(UUID.randomUUID().toString(), "Miguel Franco", "Miguel123@gmail.com", "senha12", 923893192);
+        User user17 = new User(UUID.randomUUID().toString(), "Rita Ferreira", "Rita123@gmail.com", "senha10", 930987654);
+        User user18 = new User(UUID.randomUUID().toString(), "Carlos Cordeiro", "Carlos123@gmail.com", "senha123", 927843192);
+        User user19 = new User(UUID.randomUUID().toString(), "Leticia Esteves", "Leticia123@gmail.com", "senha09", 927816792);
+        User user20 = new User(UUID.randomUUID().toString(), "Marta Oliveira", "MartaOliveiraa@gmail.com", "senha16", 927892192);
+        User user21 = new User(UUID.randomUUID().toString(), "Sofia Silva", "SofiaSilvase@gmail.com", "senha1673", 927892092);
+        User user22 = new User(UUID.randomUUID().toString(), "João Santos", "Joao123@gmail.com", "senha87", 927810192);
+        User user23 = new User(UUID.randomUUID().toString(), "Sandra Carvalho", "Sandracarvalh@gmail.com", "senha10", 930039681);
+        User user24 = new User(UUID.randomUUID().toString(), "Paulo Almeida", "PauloA24@gmail.com", "senhaA24", 931234567);
+        User user25 = new User(UUID.randomUUID().toString(), "Fernanda Lopes", "FernandaL25@gmail.com", "senhaB25", 932345678);
+        User user26 = new User(UUID.randomUUID().toString(), "Ricardo Mendes", "RicardoM26@gmail.com", "senhaC26", 933456789);
+        User user27 = new User(UUID.randomUUID().toString(), "Camila Rocha", "CamilaR27@gmail.com", "senhaD27", 934567890);
+        User user28 = new User(UUID.randomUUID().toString(), "André Nogueira", "AndreN28@gmail.com", "senhaE28", 935678901);
+        User user29 = new User(UUID.randomUUID().toString(), "Mariana Peixoto", "MarianaP29@gmail.com", "senhaF29", 936789012);
+        User user30 = new User(UUID.randomUUID().toString(), "Rodrigo Lima", "RodrigoL30@gmail.com", "senhaG30", 937890123);
+        User user31 = new User(UUID.randomUUID().toString(), "Tatiane Cunha", "TatianeC31@gmail.com", "senhaH31", 938901234);
+        User user32 = new User(UUID.randomUUID().toString(), "Eduardo Farias", "EduardoF32@gmail.com", "senhaI32", 939012345);
+        User user33 = new User(UUID.randomUUID().toString(), "Bianca Duarte", "BiancaD33@gmail.com", "senhaJ33", 940123456);
+        User user34 = new User(UUID.randomUUID().toString(), "André Cardoso", "andrecardoso34@gmail.com", "senha34", 920000034);
+        User user35 = new User(UUID.randomUUID().toString(), "Juliana Mendes", "julianamendes35@gmail.com", "senha35", 920000035);
+        User user36 = new User(UUID.randomUUID().toString(), "Paulo Henrique", "paulohenrique36@gmail.com", "senha36", 920000036);
+        User user37 = new User(UUID.randomUUID().toString(), "Camila Oliveira", "camilaoliveira37@gmail.com", "senha37", 920000037);
+        User user38 = new User(UUID.randomUUID().toString(), "Marcelo Vieira", "marcelovieira38@gmail.com", "senha38", 920000038);
+        User user39 = new User(UUID.randomUUID().toString(), "Vanessa Lima", "vanessalima39@gmail.com", "senha39", 920000039);
+        User user40 = new User(UUID.randomUUID().toString(), "Thiago Barbosa", "thiagobarbosa40@gmail.com", "senha40", 920000040);
+        User user41 = new User(UUID.randomUUID().toString(), "Alice Nogueira", "alicenogueira41@gmail.com", "senha41", 920000041);
+        User user42 = new User(UUID.randomUUID().toString(), "Gabriel Santana", "gabrielsantana42@gmail.com", "senha42", 920000042);
+        User user43 = new User(UUID.randomUUID().toString(), "Michele Costa", "michelecosta43@gmail.com", "senha43", 920000043);
+        User user44 = new User(UUID.randomUUID().toString(), "Felipe Araújo", "felipearaujo44@gmail.com", "senha44", 920000044);
+        User user45 = new User(UUID.randomUUID().toString(), "Renata Teixeira", "renatateixeira45@gmail.com", "senha45", 920000045);
+        User user46 = new User(UUID.randomUUID().toString(), "Rafael Campos", "rafaelcampos46@gmail.com", "senha46", 920000046);
+        User user47 = new User(UUID.randomUUID().toString(), "Tatiane Sousa", "tatianesousa47@gmail.com", "senha47", 920000047);
+        User user48 = new User(UUID.randomUUID().toString(), "Leonardo Rocha", "leonardorocha48@gmail.com", "senha48", 920000048);
+        User user49 = new User(UUID.randomUUID().toString(), "Daniela Martins", "danielamartins49@gmail.com", "senha49", 920000049);
+        User user50 = new User(UUID.randomUUID().toString(), "Henrique Duarte", "henriqueduarte50@gmail.com", "senha50", 920000050);
+        User user51 = new User(UUID.randomUUID().toString(), "Carolina Lopes", "carolinalopes51@gmail.com", "senha51", 920000051);
+        User user52 = new User(UUID.randomUUID().toString(), "José Antunes", "joseantunes52@gmail.com", "senha52", 920000052);
+        User user53 = new User(UUID.randomUUID().toString(), "Amanda Farias", "amandafarias53@gmail.com", "senha53", 920000053);
+        User user54 = new User(UUID.randomUUID().toString(), "Bruno Cardoso", "brunocardoso54@gmail.com", "senha54", 920000054);
+        User user55 = new User(UUID.randomUUID().toString(), "Fernanda Moura", "fernandamoura55@gmail.com", "senha55", 920000055);
+        User user56 = new User(UUID.randomUUID().toString(), "Samuel Mendes", "samuelmendes56@gmail.com", "senha56", 920000056);
+        User user57 = new User(UUID.randomUUID().toString(), "Luciana Ferreira", "lucianaferreira57@gmail.com", "senha57", 920000057);
+        User user58 = new User(UUID.randomUUID().toString(), "Roberto Lima", "robertolima58@gmail.com", "senha58", 920000058);
+        User user59 = new User(UUID.randomUUID().toString(), "Camila Ribeiro", "camilaribeiro59@gmail.com", "senha59", 920000059);
+        User user60 = new User(UUID.randomUUID().toString(), "Alexandre Pinto", "alexandrepinto60@gmail.com", "senha60", 920000060);
+        User user61 = new User(UUID.randomUUID().toString(), "Vivian Castro", "viviancastro61@gmail.com", "senha61", 920000061);
+        User user62 = new User(UUID.randomUUID().toString(), "Caio Nascimento", "caionascimento62@gmail.com", "senha62", 920000062);
+        User user63 = new User(UUID.randomUUID().toString(), "Lívia Rodrigues", "liviarodrigues63@gmail.com", "senha63", 920000063);
+        User user64 = new User(UUID.randomUUID().toString(), "Marcelo Teixeira", "marceloteixeira64@gmail.com", "senha64", 920000064);
+        User user65 = new User(UUID.randomUUID().toString(), "Rafaela Mendes", "rafaelamendes65@gmail.com", "senha65", 920000065);
+        User user66 = new User(UUID.randomUUID().toString(), "Igor Barbosa", "igorbarbosa66@gmail.com", "senha66", 920000066);
+        User user67 = new User(UUID.randomUUID().toString(), "Tatiane Lopes", "tatianelopes67@gmail.com", "senha67", 920000067);
+        User user68 = new User(UUID.randomUUID().toString(), "Vinícius Farias", "viniciusfarias68@gmail.com", "senha68", 920000068);
+        User user69 = new User(UUID.randomUUID().toString(), "Fernanda Rocha", "fernandarocha69@gmail.com", "senha69", 920000069);
+        User user70 = new User(UUID.randomUUID().toString(), "Diego Martins", "diegomartins70@gmail.com", "senha70", 920000070);
+        User user71 = new User(UUID.randomUUID().toString(), "Caroline Souza", "carolinesouza71@gmail.com", "senha71", 920000071);
+        User user72 = new User(UUID.randomUUID().toString(), "Renato Almeida", "renatoalmeida72@gmail.com", "senha72", 920000072);
+        User user73 = new User(UUID.randomUUID().toString(), "Bruna Santos", "brunasantos73@gmail.com", "senha73", 920000073);
+        User user74 = new User(UUID.randomUUID().toString(), "Leandro Ribeiro", "leandroribeiro74@gmail.com", "senha74", 920000074);
+        User user75 = new User(UUID.randomUUID().toString(), "Natalia Cardoso", "nataliacardoso75@gmail.com", "senha75", 920000075);
+        User user76 = new User(UUID.randomUUID().toString(), "Guilherme Vieira", "guilhermevieira76@gmail.com", "senha76", 920000076);
+        User user77 = new User(UUID.randomUUID().toString(), "Mônica Mendes", "monicamendes77@gmail.com", "senha77", 920000077);
+        User user78 = new User(UUID.randomUUID().toString(), "Anderson Pereira", "andersonpereira78@gmail.com", "senha78", 920000078);
+        User user79 = new User(UUID.randomUUID().toString(), "Juliana Ramos", "julianaramos79@gmail.com", "senha79", 920000079);
+        User user80 = new User(UUID.randomUUID().toString(), "Carlos Oliveira", "carlosoliveira80@gmail.com", "senha80", 920000080);
+        User user81 = new User(UUID.randomUUID().toString(), "Tatiane Lima", "tatianelima81@gmail.com", "senha81", 920000081);
+        User user82 = new User(UUID.randomUUID().toString(), "Eduardo Duarte", "eduardoduarte82@gmail.com", "senha82", 920000082);
+        User user83 = new User(UUID.randomUUID().toString(), "Mariana Antunes", "marianaantunes83@gmail.com", "senha83", 920000083);
+        User user84 = new User(UUID.randomUUID().toString(), "Rodrigo Campos", "rodrigocampos84@gmail.com", "senha84", 920000084);
+        User user85 = new User(UUID.randomUUID().toString(), "Aline Ferreira", "alineferreira85@gmail.com", "senha85", 920000085);
+        User user86 = new User(UUID.randomUUID().toString(), "Fernando Mendes", "fernandomendes86@gmail.com", "senha86", 920000086);
+        User user87 = new User(UUID.randomUUID().toString(), "Priscila Rocha", "priscilarocha87@gmail.com", "senha87", 920000087);
+        User user88 = new User(UUID.randomUUID().toString(), "Rafael Nogueira", "rafaelnogueira88@gmail.com", "senha88", 920000088);
+        User user89 = new User(UUID.randomUUID().toString(), "Camila Sousa", "camilasousa89@gmail.com", "senha89", 920000089);
+        User user90 = new User(UUID.randomUUID().toString(), "Thiago Farias", "thiagofarias90@gmail.com", "senha90", 920000090);
+        User user91 = new User(UUID.randomUUID().toString(), "Patrícia Vieira", "patriciavieira91@gmail.com", "senha91", 920000091);
+        User user92 = new User(UUID.randomUUID().toString(), "Leonardo Lopes", "leonardolopes92@gmail.com", "senha92", 920000092);
+        User user93 = new User(UUID.randomUUID().toString(), "Gabriela Teixeira", "gabrielateixeira93@gmail.com", "senha93", 920000093);
+        User user94 = new User(UUID.randomUUID().toString(), "Ricardo Lima", "ricardolima94@gmail.com", "senha94", 920000094);
+        User user95 = new User(UUID.randomUUID().toString(), "Vanessa Carvalho", "vanessacarvalho95@gmail.com", "senha95", 920000095);
+        User user96 = new User(UUID.randomUUID().toString(), "André Ramos", "andreramos96@gmail.com", "senha96", 920000096);
+        User user97 = new User(UUID.randomUUID().toString(), "Daniela Souza", "danielasouza97@gmail.com", "senha97", 920000097);
+        User user98 = new User(UUID.randomUUID().toString(), "Samuel Almeida", "samuelalmeida98@gmail.com", "senha98", 920000098);
+        User user99 = new User(UUID.randomUUID().toString(), "Isabela Cardoso", "isabelacardoso99@gmail.com", "senha99", 920000099);
+        User user100 = new User(UUID.randomUUID().toString(), "Felipe Nascimento", "felipenascimento100@gmail.com", "senha100", 920000100);
+
+
+        users.add(user1);
+        users.add(user2);
+        users.add(user3);
+        users.add(user4);
+        users.add(user5);
+        users.add(user6);
+        users.add(user7);
+        users.add(user8);
+        users.add(user9);
+        users.add(user10);
+        users.add(user11);
+        users.add(user12);
+        users.add(user13);
+        users.add(user14);
+        users.add(user15);
+        users.add(user16);
+        users.add(user17);
+        users.add(user18);
+        users.add(user19);
+        users.add(user20);
+        users.add(user21);
+        users.add(user22);
+        users.add(user23);
+        users.add(user24);
+        users.add(user25);
+        users.add(user26);
+        users.add(user27);
+        users.add(user28);
+        users.add(user29);
+        users.add(user30);
+        users.add(user31);
+        users.add(user32);
+        users.add(user33);
+        users.add(user34);
+        users.add(user35);
+        users.add(user36);
+        users.add(user37);
+        users.add(user38);
+        users.add(user39);
+        users.add(user40);
+        users.add(user41);
+        users.add(user42);
+        users.add(user43);
+        users.add(user44);
+        users.add(user45);
+        users.add(user46);
+        users.add(user47);
+        users.add(user48);
+        users.add(user49);
+        users.add(user50);
+        users.add(user51);
+        users.add(user52);
+        users.add(user53);
+        users.add(user54);
+        users.add(user55);
+        users.add(user56);
+        users.add(user57);
+        users.add(user58);
+        users.add(user59);
+        users.add(user60);
+        users.add(user61);
+        users.add(user62);
+        users.add(user63);
+        users.add(user64);
+        users.add(user65);
+        users.add(user66);
+        users.add(user67);
+        users.add(user68);
+        users.add(user69);
+        users.add(user70);
+        users.add(user71);
+        users.add(user72);
+        users.add(user73);
+        users.add(user74);
+        users.add(user75);
+        users.add(user76);
+        users.add(user77);
+        users.add(user78);
+        users.add(user79);
+        users.add(user80);
+        users.add(user81);
+        users.add(user82);
+        users.add(user83);
+        users.add(user84);
+        users.add(user85);
+        users.add(user86);
+        users.add(user87);
+        users.add(user88);
+        users.add(user89);
+        users.add(user90);
+        users.add(user91);
+        users.add(user92);
+        users.add(user93);
+        users.add(user94);
+        users.add(user95);
+        users.add(user96);
+        users.add(user97);
+        users.add(user98);
+        users.add(user99);
+        users.add(user100);
+
+        return users;
+    }
+
+}
+    
+
+
