@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Animal" />
+
+        <EditText
+            android:id="@+id/editTextSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sexo" />
+
+        <EditText
+            android:id="@+id/editTextIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Idade" />
+
+        <EditText
+            android:id="@+id/editTextRaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Raça" />
+
+        <EditText
+            android:id="@+id/editTextCor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cor" />
+
+        <EditText
+            android:id="@+id/editTextChip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tem Chip? (Sim/Não)" />
+
+        <EditText
+            android:id="@+id/editTextContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contacto da Pessoa" />
+
+        <ImageView
+            android:id="@+id/imageViewAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:background="#DDD"
+            android:contentDescription="Imagem do animal" />
+
+        <Button
+            android:id="@+id/buttonSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecionar Foto" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+    </LinearLayout>
+</ScrollView>

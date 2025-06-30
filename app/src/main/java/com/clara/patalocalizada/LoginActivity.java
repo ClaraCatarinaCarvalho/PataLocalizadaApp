@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
         this.passwordEditText = findViewById(R.id.editTextPassword);
 
         // Criando usuários de teste
-        this.u1 = new User("1", "Clara", "claracarvalho@gmail.com", "clara", 930987653);
+        this.u1 = new User("1", "Clara", "claracatarinacarvalho@gmail.com", "Sorayt07", 930987653);
         this.u2 = new User("2", "José", "joseamorin@gmail.com", "josec", 925678890);
 
         this.emailEditText.setText(this.u1.getEmail());

@@ -6,7 +6,6 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -22,7 +21,6 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_home);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -36,31 +34,33 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void adoption(View view) {
-        Intent intent = new Intent(HomeActivity.this, AdoptionActivity.class);
-        startActivity(intent);
+        startActivity(new Intent(this, AdoptionActivity.class));
     }
+
     public void moredetails(View view) {
-        Intent intent = new Intent(HomeActivity.this, MoreDetailsActivity.class);
-        startActivity(intent);
+        startActivity(new Intent(this, MoreDetailsActivity.class));
+    }
+
+    public void scanQRCode(View view) {
+        startActivity(new Intent(this, ScanActivity.class));
+    }
+
+    public void openReportLostAnimal(View view) {
+        startActivity(new Intent(this, ReportLostAnimalActivity.class));
+    }
+
+    public void openLostAnimalsList(View view) {
+        startActivity(new Intent(this, LostAnimalsListActivity.class));
     }
 
     private void iniciarTrocaDeBanner() {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                // Ao atingir a última imagem, o índice reinicia do começo (loop)
                 currentImageIndex = (currentImageIndex + 1) % images.length;
                 banner.setImageResource(images[currentImageIndex]);
-                handler.postDelayed(this, 8000); // Troca a imagem a cada 8 segundos
+                handler.postDelayed(this, 8000);
             }
         }, 5000);
     }
-
-    public void scanQRCode(View view) {
-        Intent intent = new Intent(HomeActivity.this, ScanActivity.class);
-        startActivity(intent);
-    }
-
 }
-
-

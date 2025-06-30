@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="10dp"
+    android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/imageViewAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Imagem do animal" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Animal"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textViewSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo: "
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <TextView
+        android:id="@+id/textViewIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade: "
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <TextView
+        android:id="@+id/textViewContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacto: "
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <TextView
+        android:id="@+id/textViewChip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chip: "
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <TextView
+        android:id="@+id/textViewRaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raça: "
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <TextView
+        android:id="@+id/textViewCor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cor: "
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+</LinearLayout>
